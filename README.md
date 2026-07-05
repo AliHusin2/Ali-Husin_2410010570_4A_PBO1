@@ -131,9 +131,13 @@ for (int i = 0; i < daftarBroiler.length; i++) {
 12. **Input Output Sederhana** digunakan untuk menerima input dari user dan menampilkan output ke user. Pada kode ini, digunakan class `Scanner` untuk menerima input dan method `System.out.println` untuk menampilkan output.
 ```bash
 Scanner scanner = new Scanner(System.in);
+
 System.out.print("ID Ayam    : ");
+
 String id = scanner.nextLine();
+
 System.out.println("Data Ayam Broiler:");
+
 ayam.tampilInfo();
 ```
 
