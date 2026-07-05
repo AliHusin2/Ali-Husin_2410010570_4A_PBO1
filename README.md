@@ -133,10 +133,7 @@ for (int i = 0; i < daftarBroiler.length; i++) {
 Scanner scanner = new Scanner(System.in);
 
 System.out.print("ID Ayam    : ");
-
 String id = scanner.nextLine();
-
-System.out.println("Data Ayam Broiler:");
 
 ayam.tampilInfo();
 ```
@@ -149,21 +146,7 @@ AyamBroiler[] daftarBroiler = new AyamBroiler[jumlah];
 14. **Error Handling** digunakan untuk menangani error yang mungkin terjadi saat runtime. Pada kode ini, digunakan `try catch` untuk menangani error.
 ```bash
 try {
-     System.out.print("ID Ayam    : ");
-     String id = scanner.nextLine();
-
-     System.out.print("Berat (kg) : ");
-     double berat = Double.parseDouble(scanner.nextLine());
-
-     System.out.print("Umur (hari): ");
-     int umur = Integer.parseInt(scanner.nextLine());
-
-     System.out.print("Pakan      : ");
-     String pakan = scanner.nextLine();
-
-     // OBJEK dibuat dari class AyamBroiler - Konstruktor dipanggil
-     daftarBroiler[i] = new AyamBroiler(id, berat, umur, pakan);
-     System.out.println("Data berhasil disimpan!");
+    ...
 
 } catch (NumberFormatException e) {
     System.out.println("Input angka tidak valid! Data diisi dengan nilai default.");
