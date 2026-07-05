@@ -194,5 +194,6 @@ try {
 
 ## Pembuat
 
-Nama: Ali
+Nama: Ali Husin
+
 NPM: 2410010570
